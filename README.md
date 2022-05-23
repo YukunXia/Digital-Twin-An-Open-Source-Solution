@@ -1,16 +1,15 @@
-# Digital Avatar: An Open-Source Solution
+# Digital Twin: An Open-Source Solution
 
 ## A Video Demonstration
 
-
-## Disclaimer
-
-- The code in this repository is not fully optimized and may require slight fine-tuning in different applications.
-
+[![Watch the video](https://img.youtube.com/vi/NvI3KYCf9A0/0.jpg)](https://www.youtube.com/watch?v=NvI3KYCf9A0)
+<figcaption align = "center">
+  <b> Click the above image to watch the video </b>
+</figcaption>
 
 ## Introduction
 
-This repository serves as an example to build your digital avatar with only a cellphone camera. The software at every step is either directly using open-source programs or written by me. I'll share the pipeline in depth in the following sections.
+This repository serves as an example to build your digital twin with only a cellphone camera. The software at every step is either directly using open-source programs or written by me. I'll share the pipeline in depth in the following sections.
 
 ## Pipeline
 
@@ -221,4 +220,4 @@ POSE_OFFSET = 300
 ### Further Comments:
 
 - There're a lot of comments in the `script.py`. Please read them if you are willing to understand more about the "ugly" trade-offs and tricks in the code.
-
+- There could be plenty of ways to improve the `script.py`, and in the demonstration video, you may notice some spurious behaviors, eg. sudden large body rotations. 
